@@ -1,0 +1,18 @@
+/* Body ile ilk açılışta boşluk verme oluşturma*/
+body ::before{
+    display: block;
+    content: "";
+    height: 10px;
+}
+
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+
+
+
+
+
